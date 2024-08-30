@@ -22,7 +22,7 @@ export default function NavBarMobile() {
                     justifyContent={'space-between'}
                     w={'100%'}
                 >
-                    <SearchBar />
+                    <SearchBar width={140} />
                     <Box
                         onClick={() => setIsOpen((prevState) => !prevState)}
                         cursor={'pointer'}
@@ -36,7 +36,7 @@ export default function NavBarMobile() {
                     display={ isOpen ? 'flex' : 'none'}
                 >
                     <Link
-                        href={'/'}
+                        href={'/posts'}
                     >
                         <Text fontWeight={'500'}>
                             Blogs

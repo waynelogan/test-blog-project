@@ -22,13 +22,13 @@ export default function NavBar() {
                     gap={6}
                 >
                     <Link
-                        href={'/'}
+                        href={'/posts'}
                     >
                         <Text fontWeight={'500'}>
                             Blogs
                         </Text>
                     </Link>
-                    <SearchBar />
+                    <SearchBar width={140} />
                     <CreateBlogPostButton />
                 </HStack>
             </HStack>
