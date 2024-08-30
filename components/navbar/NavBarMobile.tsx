@@ -39,13 +39,6 @@ export default function NavBarMobile() {
                         href={'/'}
                     >
                         <Text fontWeight={'500'}>
-                            Home
-                        </Text>
-                    </Link>
-                    <Link
-                        href={'/blog'}
-                    >
-                        <Text fontWeight={'500'}>
                             Blogs
                         </Text>
                     </Link>

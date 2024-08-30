@@ -1,11 +1,11 @@
-type Post = {
-    title: string;
-    date: string;
-    readingTime: string;
-    content: string;
-};
+export interface Post {
+    title: string
+    date: string
+    readingTime: string
+    content: string
+}
 
-const posts: Post[] = [
+export const posts: Post[] = [
     {
         title: 'Understanding Compensatory Damages in an ADA Context',
         date: 'Dec 2023',
@@ -644,4 +644,4 @@ const posts: Post[] = [
         These refer to reparations for items such as pain, suffering, and emotional well-being. 
         These damages are difficult to calculate as the amount required to satisfy them is much more subjective than in special damages.`
     },
-];
+]

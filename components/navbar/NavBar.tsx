@@ -22,7 +22,7 @@ export default function NavBar() {
                     gap={6}
                 >
                     <Link
-                        href={'/blog'}
+                        href={'/'}
                     >
                         <Text fontWeight={'500'}>
                             Blogs
