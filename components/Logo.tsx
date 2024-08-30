@@ -4,7 +4,7 @@ import Icon from "./Icon"
 export default function Logo() {
 
     return (
-        <HStack alignItems={'center'}>
+        <HStack alignItems={'center'} justifyContent={'center'}>
             <Icon />
             <VStack gap={0}>
                 <Heading size='xl' fontWeight={'400'} fontFamily={'fasthand'}>
